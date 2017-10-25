@@ -1,0 +1,7 @@
+<%= form_tag do %>
+
+<p>Enter A value : <%= number_field_tag 'a' %></p>
+<p>Enter B value : <%= number_field_tag 'b' %></p>
+<p><%= submit_tag "Multiplication" %></p>
+<% end %>
+<html> Multiplication : <%= @a * @b %></html>
